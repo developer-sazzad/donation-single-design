@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+ header{
+    height: 100%;
+    width: 100%;
+    background-image: url('/images/donation10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+.main-container{
+    text-align: center;
+    padding: 175px 300px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+
+}
+
+.content .head-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.content .head-description{
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+/* Primary Button */
+.btn-primary{
+    padding: 15px 25px;
+    background-color: #FF5959;
+    border: 0;
+    border-radius: 8px;
+}
+
+.btn-primary a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+
+
+main{
+    width: 100%;
+    text-align: center;
+}
+
+
+.donate-container{
+    width: 750px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 130px;
+}
+main section{
+    margin: 130px 200px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+
+}
+
+.description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+
+/* Donate Items Styles */
+.content-item{
+    display: flex;
+    gap: 22px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.content-item .items{
+    padding: 40px 30px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.items h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+.content-item .donate-active{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.other-amount{
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    padding-bottom: 15px;
+}
+
+.donate-plan{
+    margin: 0 200px;
+}
+
+
+/* plan Items Design */
+.plan-content{
+    display: flex;
+    gap: 25px;
+}
+.plan-item{
+    border-radius: 10px;
+    text-align: left;
+    padding: 65px 25px 50px 25px;
+}
+.plan-one{
+    background: rgba(79, 157, 166, 0.1);
+}
+.plan-three{
+    background-color: #FFEEEE;
+
+}
+.plan-item .title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #121212;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    
+}
+.plan-item .plan-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+
+/* Donation Content Album  */
+
+.donation-container{
+    display: flex;
+    gap: 50px;
+    
+}
+.donation-two{
+    margin-top: 80px;
+}
+
+/* .donation-item > h3, p{
+    text-align: left;
+} */
+.donation-item {
+    text-align: left;
+}
+.donation-item .section-description{
+    padding: 22px 0;
+
+}
+.donation-item .album-btn{
+    margin-top: 30px;
+}
+
+
+/* Subcribe section */
+.subcribe{
+    padding: 50px 0;
+    background-color: #FFF4D6;
+
+}
+.subcribe input{
+    width: 250px;
+    padding: 16px 15px 16px 20px;
+    background-color: #D9D9D9;
+    border: 0;
+}
+.subcribe button{
+    padding: 13px 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px;
+}
+
+
+
+/* footer Design */
+footer{
+    background-color: #0B0D17;
+    color: #FFF;
+    padding: 70px 0;
+    text-align: center;
+    margin-top: 130px;
+}
